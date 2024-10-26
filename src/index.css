@@ -1,0 +1,76 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.pointer {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pointer :hover {
+    color: rgb(41, 41, 41) !important;
+    background-color: rgb(230, 242, 254);
+}
+
+.op-0 {
+    opacity: 0;
+}
+
+/* CSS */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+shadow {
+    box-shadow: 2px 4px -10px 10px gray !important;
+}
+
+.w-10 {
+    width: 12%;
+}
+
+.w-13 {
+    width: 13%;
+}
+
+.w-7 {
+    width: 7%;
+}
+
+.height {
+    height: 10px !important;
+}
+
+.search-size {
+    height: 20px;
+}
+
+.tick-size {
+    height: 25px;
+}
+
+.cross-size {
+    height: 15px;
+}
+
+.bg-light-gray {
+    background-color: rgb(184, 184, 184);
+}
+
+.rounded-t {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.rounded-b {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@media (width > 320px) {
+    .searchbar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
